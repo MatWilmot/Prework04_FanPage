@@ -6,32 +6,23 @@
     <title>Michael Bublé Fan Page</title>
     <link rel="shortcut icon" href="http://iconshow.me/media/images/System/plex-icons/png/Media/24/play-music.png" />
     <link rel="stylesheet" href="style.css">
-    <style>
-        table {
-            font-family: Arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td,
-        th {
-            border: 1px solid #000000;
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-    </style>
+    
 </head>
 
 <body>
-    <h1>Michael Bublé Fan Page &#127908;</h1>
+    <div class="navBar">
+        <h1>Michael Bublé Fan Page &#127908;</h1>
+        <ul class="navList">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Awards">Awards</a></li>
+            <li><a href="#FavSong">My Favorite Song</a></li>
+            <li><a href="#Albums">Albums</a></li>
+        </ul>
+    </div>
     <img src="https://i2-prod.mirror.co.uk/incoming/article13366843.ece/ALTERNATES/s810/0_Michael-Buble.jpg"
         alt="Michael Bublé" />
 
-    <h2>About</h2>
+    <h2 id="About">About</h2>
     <p>
         Michael Bublé, born September 9th 1975, is a Canadian-Italian singer, songwriter, actor, and record producer.
         The first album he
@@ -43,7 +34,7 @@
             rel=noopener>his website</a>.
     </p>
 
-    <h2>Awards</h2>
+    <h2 id="Awards">Awards</h2>
     <p>Michael Bublé has won a number of awards, including but not limited to:</p>
     <ul>
         <li>Album of the Year - 2006, 2010, 2012</li>
@@ -53,12 +44,12 @@
         <li>Artist of the Year - 2006</li>
     </ul>
 
-    <h2>My Favorite Song:</h2>
+    <h2 id="FavSong">My Favorite Song:</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Edwsf-8F3sI" frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
 
-    <h2>Albums</h2>
+    <h2 id="Albums">Albums</h2>
     <table style="width:50%">
         <tr>
             <th>Album</th>
