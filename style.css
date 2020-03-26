@@ -32,6 +32,18 @@ body {
   color: whitesmoke;
 }
 
+.mainBody {
+  background-color: #0c7b93;
+}
+
+#headerPic {
+  /* margin: 10px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -45,4 +57,12 @@ td,th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+.mainBody h2, p, table, ul, iframe {
+  margin-left: 10px;
 }
